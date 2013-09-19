@@ -7,36 +7,93 @@
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Foundation 4</title>
-
   
   <link rel="stylesheet" href="stylesheets/app.css">
-  
 
   <script src="javascripts/vendor/custom.modernizr.js"></script>
-
 </head>
 <body>
 
+  <!-- Top Bar Positioning Wrapper (optional) -->
+  <!-- <div class="fixed contain-to-grid"> -->
+    <nav class="top-bar">
+    <!-- <nav class="top-bar" data-options="is_hover: false; back_text: Return"> -->
+      <!-- Title -->
+      <ul class="title-area">
+        <li class="name"><h1><a href="#">Sexy Top Bar</a></h1></li>
+
+        <!-- Mobile Menu Toggle -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <!-- Top Bar Section -->
+      <section class="top-bar-section">
+
+        <!-- Top Bar Left Nav Elements -->
+        <ul class="left">
+
+          <!-- Search | Has Form Wrapper -->
+          <li class="has-form">
+            <div class="row collapse">
+              <div class="small-8 columns">
+                <input type="text" placeholder="Find Stuff">
+              </div>
+              <div class="small-4 columns">
+                <a href="#" class="alert button">Search</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Top Bar Right Nav Elements -->
+        <ul class="right">
+          <li><a href="#">Generic Button</a></li>
+
+          <!-- Divider -->
+          <li class="divider"></li>
+
+          <!-- Dropdown -->
+          <li class="has-dropdown"><a href="#">Item 1</a>
+            <ul class="dropdown">
+              <li class=""><label>Level One</label></li>
+              <li class=""><a href="#">Sub-item 1</a></li>
+              <li class=""><a href="#">Sub-item 2</a></li>
+              <li class="divider"></li>
+              <li class=""><a href="#">Sub-item 3</a></li>
+              <li class="has-dropdown"><a href="#">Sub-item 4</a>
+
+                <!-- Nested Dropdown -->
+                <ul class="dropdown">
+                  <li class=""><label>Level Two</label></li>
+                  <li class=""><a href="#">Sub-item 2</a></li>
+                  <li class=""><a href="#">Sub-item 3</a></li>
+                  <li class=""><a href="#">Sub-item 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Sub-item 5</a></li>
+            </ul>
+          </li>
+          <li class="divider"></li>
+
+          <!-- Button -->
+          <li class="has-form">
+            <a href="http://foundation.zurb.com/docs" class="button">Get Lucky</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  <!-- </div> -->
+
 	<div class="row">
 		<div class="large-12 columns">
-			<h2>Welcome to Foundation</h2>
+			<h2>Foundation Top Bar</h2>
 			<p>This is version 4.3.1.</p>
 			<hr />
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="large-8 columns">
-			<h3>The Grid</h3>
-
-			<!-- Grid Example -->
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
+		<div class="large-12 columns">
 			<div class="row">
 				<div class="large-6 columns">
 					<div class="panel">
@@ -66,34 +123,19 @@
 					</div>
 				</div>
 			</div>
-
-			<h3>Buttons</h3>
-
       <div class="row">
-        <div class="large-6 columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
-        </div>
-        <div class="large-6 columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
+      <div class="large-12 columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id lectus quis enim porttitor varius. Sed varius est eget erat tempor tincidunt. Duis neque lacus, aliquam et leo quis, ullamcorper luctus justo. Pellentesque quis tristique metus, ut egestas tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent vulputate dapibus dolor nec rutrum. Proin lacinia eros sed massa vulputate, eget ornare erat adipiscing.</p>
+
+        <p>Vivamus ornare orci sem, ac malesuada dolor porttitor a. Nulla a ante pharetra arcu mattis rhoncus. Phasellus vitae pulvinar turpis, nec hendrerit magna. Fusce egestas, lorem id rutrum scelerisque, erat ipsum tempor nisl, eget facilisis magna odio sed purus. Quisque dignissim laoreet turpis ut faucibus. Aenean sagittis erat et magna malesuada porta. Praesent facilisis luctus lectus, eget mollis magna consequat et. Maecenas posuere, mauris quis tincidunt ultricies, ante lorem volutpat elit, eget euismod mi ligula a purus. Curabitur vitae auctor metus, non suscipit lorem. Aliquam erat volutpat. Nulla ut erat eu turpis rhoncus molestie et faucibus orci. Phasellus varius scelerisque tincidunt. Praesent eleifend ultricies malesuada. Phasellus quis cursus urna, vel vehicula sem.</p>
+
+        <p>Mauris fringilla odio nec ante tempor, eget condimentum leo commodo. Aenean malesuada molestie nisi, suscipit condimentum leo mollis in. Vestibulum id scelerisque lectus. In hac habitasse platea dictumst. Nulla facilisi. Mauris non metus felis. Nulla nunc metus, placerat eget ullamcorper quis, porta at justo. Morbi a scelerisque nulla.</p>
+
+        <p>Nam vitae pharetra tellus. Etiam mattis ut mi quis porta. Proin facilisis accumsan velit, eu placerat lorem volutpat quis. Maecenas ac semper ligula. Nullam justo dui, vulputate a mauris in, gravida ultrices magna. Integer iaculis interdum ante, in pellentesque est pretium sed. Morbi ultrices augue nec fermentum fermentum. Curabitur sagittis et mi non pulvinar. Quisque tincidunt nibh a adipiscing luctus. Duis at justo sem. Donec volutpat lobortis est, a ullamcorper turpis adipiscing eu. Nullam porttitor luctus eros, sed egestas nisi condimentum id. Praesent posuere enim at suscipit aliquet. Suspendisse ornare a orci ac malesuada. Proin feugiat est vel turpis condimentum blandit. Nunc et orci vel mi vestibulum tristique.</p>
+
+        <p>Fusce in fringilla massa, vel faucibus enim. Quisque sed rhoncus leo. Pellentesque ullamcorper dui vitae semper ullamcorper. Pellentesque tempus vitae sapien ut hendrerit. Proin vel hendrerit dolor. Donec ac porta orci, sed placerat odio. Integer scelerisque lectus vel ipsum vulputate, eu ultrices sapien dignissim. Proin pulvinar ultricies arcu, vel tincidunt urna pulvinar ut. Aliquam sollicitudin massa et iaculis hendrerit. Cras sagittis vulputate porta. Fusce dignissim purus elementum bibendum dignissim. Nam tincidunt metus quis massa mollis, ut pellentesque justo blandit. Aliquam vehicula mi in erat ornare, ut gravida odio porttitor. Ut vitae nibh non nisl rhoncus cursus. Aenean vel ligula id libero eleifend lobortis ac ut lectus.</p>
       </div>
-		</div>
-
-		<div class="large-4 columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-			</ul>
+    </div>
 		</div>
 	</div>
 
@@ -104,34 +146,6 @@
   </script>
   
   <script src="javascripts/foundation/foundation.js"></script>
-	
-	<script src="javascripts/foundation/foundation.abide.js"></script>
-	
-	<script src="javascripts/foundation/foundation.alerts.js"></script>
-	
-	<script src="javascripts/foundation/foundation.clearing.js"></script>
-	
-	<script src="javascripts/foundation/foundation.cookie.js"></script>
-	
-	<script src="javascripts/foundation/foundation.dropdown.js"></script>
-	
-	<script src="javascripts/foundation/foundation.forms.js"></script>
-	
-	<script src="javascripts/foundation/foundation.interchange.js"></script>
-	
-	<script src="javascripts/foundation/foundation.joyride.js"></script>
-	
-	<script src="javascripts/foundation/foundation.magellan.js"></script>
-	
-	<script src="javascripts/foundation/foundation.orbit.js"></script>
-	
-	<script src="javascripts/foundation/foundation.placeholder.js"></script>
-	
-	<script src="javascripts/foundation/foundation.reveal.js"></script>
-	
-	<script src="javascripts/foundation/foundation.section.js"></script>
-	
-	<script src="javascripts/foundation/foundation.tooltips.js"></script>
 	
 	<script src="javascripts/foundation/foundation.topbar.js"></script>
 	
